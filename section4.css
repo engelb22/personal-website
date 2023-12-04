@@ -1,0 +1,61 @@
+#section4 {
+  padding: 50px 14% 100px 14%;
+}
+.s4main {
+  font-family: 'GFS Didot', serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #14325C;
+  padding-bottom: 5px;
+}
+.s4submain {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.s4title {
+  font-family: 'GFS Didot', serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #14325C;
+  display: block;
+  padding-bottom: 5px;
+}
+.s4description {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 25px;
+  line-height: 35px;
+  padding-bottom: 20px;
+}
+
+@media (min-width: 480.1px) and (max-width: 768px) {
+  .s4submain{
+    font-size: 17px;
+  }
+  .s4title {
+    font-size: 20px;
+    padding-bottom: 5px;
+  }
+  .s4description {
+    font-size: 17px;
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  #section4 {
+    padding: 50px 20px 100px 20px;
+  }
+  .s4submain {
+    font-size: 13px;
+    line-height: 15px;
+  }
+  .s4title {
+    font-size: 16px;
+    padding-bottom: 0px;
+  }
+  .s4description {
+    font-size: 13px;
+    line-height: 22px;
+  }
+}

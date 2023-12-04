@@ -1,0 +1,75 @@
+#section3 {
+  padding: 0px 14% 30px 14%;
+  background-color: #e8f1ff;
+}
+.s3title {
+  font-family: 'GFS Didot', serif;
+  font-weight: bold;
+  font-size: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #2F6CD6;
+}
+.s3container {
+  display: flex;
+  margin-bottom: 30px;
+}
+.s3img {
+  height: 200px;
+  width: 200px;
+  margin-right: 50px;
+}
+.s3skillname {
+  font-family: 'GFS Didot', serif;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #14325C;
+}
+.s3description {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 25px;
+  line-height: 35px;
+}
+
+@media (min-width: 480.1px) and (max-width: 768px) {
+  .s3img {
+    height: 100px; width: 100px;
+  }
+  .s3skillname {
+    font-size: 20px;
+  }
+  .s3description {
+    font-size: 17px;
+    line-height: 25px;
+  }
+  .s3img {
+    margin-right: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  #section3 {
+    padding: 0px 20px 30px 20px;
+  }
+  .s3title {
+    font-size: 35px;
+  }
+  .s3img {
+    height: 100px; width: 100px;
+  }
+  .s3skillname {
+    font-size: 16px;
+    margin-bottom: 3px;
+  }
+  .s3description {
+    font-size: 13px;
+    line-height: 18px;
+  }
+  .s3img {
+    margin-right: 20px;
+  }
+  .s3container {
+    margin-bottom: 15px;
+  }
+}

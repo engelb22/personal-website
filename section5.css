@@ -1,0 +1,91 @@
+#section5 {
+  background-color: #c7deff;
+  padding: 30px 14%;
+}
+.s5title {
+  font-family: 'GFS Didot', serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #14325C;
+  padding-bottom: 10px;
+}
+.facebook-logo {
+  height: 50px; width: 50px;
+  padding-right: 10px;
+}
+.linkedin-logo {
+  height: 60px; width: 60px;
+  padding-right: 10px;
+}
+.gmail-logo {
+  height: 60px; width: 60px;
+  padding-right: 10px;
+}
+.cell-phone-icon {
+  height: 50px; width: 50px;
+}
+.s5mainflex {
+  display: flex; flex-direction: row;
+}
+.s5left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.s5right {
+  flex: 3;
+  display: flex;
+  align-items: center;
+}
+.phone-number {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 17px;
+}
+
+@media (min-width: 480.1px) and (max-width: 520px) {
+  .s5mainflex {
+    flex-direction: column;
+  }
+  .cell-phone-icon {
+    margin-left: -10px;
+    margin-right: 5px;
+  }
+  .s5right {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  #section5 {
+    padding: 20px;
+  }
+  .s5title {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .s5mainflex {
+    flex-direction: column;
+    align-items: center;
+  }
+  .facebook-logo {
+    height: 40px; width: 40px;
+  }
+  .linkedin-logo {
+    height: 48px; width: 48px;
+  }
+  .gmail-logo {
+    padding-right: 0px;
+    height: 48px; width: 48px;
+  }
+  .cell-phone-icon {
+    margin-left: -15px;
+    margin-right: 5px;
+    height: 40px; width: 40px;
+  }
+  .s5right {
+    margin-top: 10px;
+  }
+  .phone-number {
+    font-size: 13px;
+  }
+}
